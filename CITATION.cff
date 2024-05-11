@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Orfanos
+    given-names: Marry Ann
+title: "Dr.Knox and the Penny Blood"
+version: 0.0.1
+date-released: 2024-05-10
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/Orfanosm24/capstone-tei-final"
