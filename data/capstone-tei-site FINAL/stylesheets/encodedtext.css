@@ -1,0 +1,173 @@
+/***/
+/* imports specific fonts from Google Fonts - go to google to select more fontso*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ========================================================================== */
+
+/* title of the encoded text section*/ 
+h2.encoded-text-title{
+	font-family:;
+    font-size:27px;
+    color:rgb(0, 0, 0);
+	margin-top:50px;
+}
+
+/* divides the letter from the introduction text and the editor notes*/
+ hr.divider {
+	margin-top:50px;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	width:1000px;
+ }
+
+/*editors note styles*/
+div.editor-notes{
+	max-width:1100px;
+	margin-top: 2.5rem;
+	margin-right:auto;
+	margin-left:auto;
+	line-height: 25px;
+	font-family:;
+	font-size:;
+}
+
+span.noteLabel{
+	font-size:17px;
+	font-weight: 600;
+}
+
+/*xml text with link at the bottom of the page*/
+div.xml-file{
+	max-width:1100;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:20px;
+	font-family:;
+	font-size:18px;
+}
+
+/* ========================================================================== */
+/* Committee Report specific styles*/
+
+div.committee-opener{
+	max-width:1150px;
+}
+
+div.committee-container{
+	font-family: "Crimson Text", serif;
+	font-size: 30px;
+	font-weight: 300;
+	font-style: normal;
+	max-width:1100px;
+	margin-top: 2rem;
+	margin-right:auto;
+	margin-left:auto;
+	line-height: 27px;
+}
+
+div.signature-committee-container {
+	max-width:1100px;
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:200px;
+	font-family: "Italianno", cursive;
+	font-size:30px;
+	font-weight: 400;
+	line-height: 17px;
+}
+
+div.signature-committee-names {
+	margin-left:200px;
+	font-family:times new;
+	font-size:30px;
+	line-height: 27px;
+}
+
+div.signature-date {
+	margin-left:200px;
+	margin-top:10px;
+	font-size:20px;
+}
+
+div.committee-footnote{
+	max-width:1100px;
+	margin-top: 1rem;
+	margin-right:auto;
+	margin-left:auto;
+	line-height: 27px;
+	font-family:;
+	font-size:;
+}
+
+hr.committee-footnote-divide{
+	width:200px;
+	margin-top:50px;
+	margin-left:030px;
+}
+
+/* ========================================================================== */
+/* Correspondence specific styles*/
+
+/*For larger sections of text that are intended to match the main format of the text*/
+div.correspondence-section{
+	font-family: "Crimson Text", serif;
+	font-size: 30px;
+	font-weight: 300;
+	max-width:1100px;
+	margin-top: 2rem;
+	margin-right:auto;
+	margin-left:auto;
+	line-height: 27px;
+
+}
+
+/*For when there is an opener, e.g., Dear Sir*/
+div.correspondence-opener{
+	max-width:1150px;
+}
+
+/*For the numbers that break up the sections in the Duncan letter*/
+h4.number-divider{
+	font-size:30px;
+	text-align: center;
+	margin-top:-2px;
+	margin-bottom:-2px;
+}
+
+/*The divier between the letters in the Duncan letters*/
+hr.letter-divider {
+    margin-top:20px;
+	overflow: visible; /* For IE */
+    padding-top: 0;
+    border: none;
+    border-top: medium double #909090;
+    color: #909090;
+    text-align: center;
+	width:400px;
+}
+
+hr.letter-divider:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+/*For signatures at the end of letters*/
+div.letter-signature{
+	font-family: "Italianno", cursive;
+	font-size:30px;
+	font-weight: 400;
+	max-width:1100px;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	padding-left:200px;
+	line-height: 17px;
+}
+
