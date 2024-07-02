@@ -113,7 +113,7 @@ hr.committee-footnote-divide{
 /*For larger sections of text that are intended to match the main format of the text*/
 div.correspondence-section{
 	font-family: "Crimson Text", serif;
-	font-size: 30px;
+	font-size: 33px;
 	font-weight: 300;
 	max-width:1100px;
 	margin-top: 2rem;
@@ -160,7 +160,9 @@ hr.letter-divider:after {
 
 /*For signatures at the end of letters*/
 div.letter-signature{
-	font-family: "Italianno", cursive;
+	font-family: "Crimson Text", serif;
+	font-size: 33px;
+	font-weight: 300;
 	max-width:1100px;
 	margin-top:20px;
 	margin-right:auto;
