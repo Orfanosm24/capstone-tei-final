@@ -130,7 +130,7 @@ h4.number-divider{
 
 /*The divier between the letters in the Duncan letters*/
 hr.letter-divider {
-    margin-top:20px;
+    margin-top:40px;
     overflow: visible; /* For IE */
     padding-top: 30;
     border: none;
