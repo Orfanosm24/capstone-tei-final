@@ -134,10 +134,10 @@ hr.letter-divider {
     overflow: visible; /* For IE */
     padding-top: 0;
     border: none;
-    border-top: medium double #909090;
+    border-top: medium double #565555;
     color: #909090;
     text-align: center;
-    width:400px;
+    width:500px;
 }
 
 hr.letter-divider:after {
