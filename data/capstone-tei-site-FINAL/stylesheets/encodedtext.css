@@ -29,8 +29,6 @@ div.editor-notes{
 	margin-right:auto;
 	margin-left:auto;
 	line-height: 25px;
-	font-family:;
-	font-size:;
 }
 
 span.noteLabel{
@@ -44,7 +42,6 @@ div.xml-file{
 	margin-right:auto;
 	margin-left:auto;
 	margin-top:20px;
-	font-family:;
 	font-size:18px;
 }
 
@@ -77,9 +74,9 @@ div.signature-committee-container {
 }
 
 div.signature-committee-names {
+	font-family: "Crimson Text", serif;
 	margin-left:200px;
 	font-family: "Crimson Text", serif;
-	font-size:30px;
 	line-height: 27px;
 }
 
@@ -90,13 +87,12 @@ div.signature-date {
 }
 
 div.committee-footnote{
+	font-family: "Crimson Text", serif;
 	max-width:1100px;
 	margin-top: 1rem;
 	margin-right:auto;
 	margin-left:auto;
 	line-height: 27px;
-	font-family:;
-	font-size:;
 }
 
 hr.committee-footnote-divide{
@@ -135,13 +131,13 @@ h4.number-divider{
 /*The divier between the letters in the Duncan letters*/
 hr.letter-divider {
     margin-top:20px;
-	overflow: visible; /* For IE */
+    overflow: visible; /* For IE */
     padding-top: 0;
     border: none;
     border-top: medium double #909090;
     color: #909090;
     text-align: center;
-	width:400px;
+    width:400px;
 }
 
 hr.letter-divider:after {
