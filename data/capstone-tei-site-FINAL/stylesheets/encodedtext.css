@@ -140,15 +140,7 @@ hr.letter-divider {
     width:500px;
 }
 
-hr.letter-divider:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1em;
-    padding: 0 0.25em;
-    background: white;
-}
+
 
 /*For signatures at the end of letters*/
 div.letter-signature{
