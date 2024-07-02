@@ -6,7 +6,7 @@
 
 /* title of the encoded text section*/ 
 h2.encoded-text-title{
-	font-family:;
+    font-family:;
     font-size:27px;
     color:rgb(0, 0, 0);
 	margin-top:50px;
@@ -14,8 +14,8 @@ h2.encoded-text-title{
 
 /* divides the letter from the introduction text and the editor notes*/
  hr.divider {
-	margin-top:50px;
-	border: 0;
+    margin-top:50px;
+    border: 0;
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
